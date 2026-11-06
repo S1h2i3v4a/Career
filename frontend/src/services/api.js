@@ -1,9 +1,9 @@
 /**
  * DevRadar Backend API Client
- * Connects Frontend directly to Node/Express + MongoDB Atlas Backend
+ * Connects Frontend directly to Live Node/Express + MongoDB Atlas Backend on Render
  */
 
-const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://career-644s.onrender.com/api';
 
 function getAuthHeader() {
   const token = localStorage.getItem('devradar_auth_token');

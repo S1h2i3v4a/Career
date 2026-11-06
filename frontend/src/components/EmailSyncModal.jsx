@@ -41,7 +41,7 @@ export default function EmailSyncModal({
   const [gmailSyncResult, setGmailSyncResult] = useState(null);
 
   const userEmail = currentUser?.email || 'shivamkeshari990@gmail.com';
-  const webhookUrl = `http://localhost:5000/api/webhook/email-inbound`;
+  const webhookUrl = `https://career-644s.onrender.com/api/webhook/email-inbound`;
 
   const handleCopy = (text) => {
     navigator.clipboard?.writeText(text);
