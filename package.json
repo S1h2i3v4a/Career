@@ -1,0 +1,36 @@
+{
+  "name": "devradar-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DevRadar Full-Stack Workspace: Frontend (React + Vite) & Backend (Express + MongoDB)",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm start --prefix backend",
+    "server": "npm start --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "imapflow": "^1.0.170",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^9.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.1"
+  }
+}
